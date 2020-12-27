@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Law Firms</title>
+        <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/appton/1-1/vendor/bootstrap/css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS-->
+        <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/appton/1-1/vendor/font-awesome/css/font-awesome.min.css">
+        <!-- Google fonts - Poppins-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600">
+        <!-- Lightbox-->
+        <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/appton/1-1/vendor/lightbox2/css/lightbox.css">
+        <!-- Custom font icons-->
+        <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/appton/1-1/css/fontastic.css">
+        <!-- theme stylesheet-->
+        <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/appton/1-1/css/style.default.css?v=2" id="theme-stylesheet">
+        <!-- Custom stylesheet - for your changes-->
+        <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/appton/1-1/css/custom.css">
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="https://d19m59y37dris4.cloudfront.net/appton/1-1/img/favicon.png">
+
+            <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
+    </head>
+<body>
+   <div id="app">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="home.html">
+                    Law Firms
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+                        
+                        
+                            <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profile.html">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="law.html">Laws</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="constitution_bd.html">Constitution of BD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="court.html">Court of BD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="law_edu.html">Law Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="law_carrer.html">Law Carrer</a>
+                            </li>
+                             <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Profile
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="profile.php">Profile</a>
+                                <a class="dropdown-item" href="ceo.php">About</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="../login.php">Logout</a>
+                              </div>
+                            </li>
+                           
+                         </ul>
+                </div>
+            </div>
+        </nav>
+
+    <main class="py-4">
+      <div class="container">
+    		<form method="post" action=" " enctype="multipart/form-data">
+    			       <input type="hidden" name="_method" value="PUT">               
+                 <input type="hidden" name="_token" value=" ">		
+           	<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+      	       <div class="col-sm-10">
+      	            <input type="text" class="form-control" id="name" name="name" value=" ">
+      	      </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Designation</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your designation" class="form-control" id="designation" name="designation" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row"> 
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    	            <div class="col-sm-10">
+    	            	<input type="email" class="form-control" id="email" name="email" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Phone</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" class="form-control" id="phone" name="phone" value=" " placeholder="Enter your phone number">
+    	            </div>
+      			</div>
+
+      			
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Photo</label>
+    	            <div class="col-sm-10">
+    	            	<input type="file" class="form-control" id="photo" name="photo" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Lawyer id</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your lawyer id" class="form-control" id="lid" name="lid" value=" ">
+    	            </div>
+      			</div>
+
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Chamber address</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your chamber address" class="form-control" id="chamber_address" name="chamber_address" value=" ">
+    	            </div>
+      			</div>
+
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Experience</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your experience" class="form-control" id="experience1" name="experience1" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Experience</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your experience" class="form-control" id="experience2" name="experience2" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Experience</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your experience" class="form-control" id="experience3" name="experience3" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Qualification</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your qualification" class="form-control" id="qualification1" name="qualification1" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Qualification</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your qualification" class="form-control" id="qualification2" name="qualification2" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3"  class="col-sm-2 col-form-label">Qualification</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter your qualification" class="form-control" id="qualification3" name="qualification3" value=" ">
+    	            </div>
+      			</div>
+
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Total solved case</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Enter number of solved case" class="form-control" id="totalcase" name="totalcase" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Availability</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Eg. - 10 AM to 5 PM" class="form-control" id="availability" name="availability" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Fee per case</label>
+    	            <div class="col-sm-10">
+    	            	<input type="text" placeholder="Fee per case" class="form-control" id="fee" name="fee" value=" ">
+    	            </div>
+      			</div>
+
+      			<div class="form-group row">
+    	            <label for="inputEmail3" class="col-sm-2 col-form-label">Bio</label>
+    	            <div class="col-sm-10">
+    	            	<textarea name="bio" placeholder="Your biograpy details" class="form-control" rows="5">
+    	            		 
+    	            	</textarea>
+    	            </div>
+      			</div>
+
+
+      			<div class="form-group row">
+    	            <div class="col-sm-10">
+    	            	<input type="submit" class="btn btn-success" color="lightbox" value="Save your profile info">
+    	            </div>
+      			</div>
+    			
+    			
+    		</form>
+    	</div>
+    </main>
+  </div>
+</body>
+<footer class="main-footer">
+      <div class="copyrights">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <p>&copy; All rights reserved by Law Firm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</html>
